@@ -1,3 +1,4 @@
+
 .clear {
 	clear:both;
 }
@@ -8,12 +9,12 @@
     border-radius: 100%;
     background: #5c3485;
     border: 1px solid #F7F7F7;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px 10px;
     text-align: center;
     color: #FFF;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 16px;
     cursor: pointer;
     transform:rotate(-15deg);
@@ -24,15 +25,16 @@
 	/* Trebuchet-based sans serif stack */
 	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
 	font-style: italic;
-	font-size: 20px;
-	padding-top: 20px;
+	font-size: 24px;
+	padding-top: 30px;
 }
 .links {
-	padding-top:20px;
+	padding-top:25px;
 }
 .links a {
+	font-family: 'fira_sansmedium', sans-serif;
+	font-size:18px;
 	color:black;
-	font-zize: 20px;
 	border-bottom: 1px solid #b6acc3;
 }
 header {
@@ -41,4 +43,18 @@ header {
 hr {
 	clear:both;
 }
+h1 {
+	font-family: 'fira_sansmedium_italic', sans-serif;
+	font-size:48px;
+}
+h2 {
+	font-family: 'fira_sansregular', sans-serif;
+	font-size:36px;
+}
+
+
+
+
+
+
 
