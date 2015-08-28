@@ -1,3 +1,44 @@
 .clear {
 	clear:both;
 }
+.circle {
+    font-weight:bold;
+    font-style: italic;
+    position: relative;
+    border-radius: 100%;
+    background: #5c3485;
+    border: 1px solid #F7F7F7;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 10px;
+    line-height: 16px;
+    cursor: pointer;
+    transform:rotate(-15deg);
+    -ms-transform:rotate(-15deg); /* IE 9 */
+    -webkit-transform:rotate(-15deg); /* Opera, Chrome, and Safari */
+}
+.slogan {
+	/* Trebuchet-based sans serif stack */
+	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.links {
+	padding-top:20px;
+}
+.links a {
+	color:black;
+	font-zize: 20px;
+	border-bottom: 1px solid #b6acc3;
+}
+header {
+	border-top: 9px solid #67606f;
+}
+hr {
+	clear:both;
+}
+
