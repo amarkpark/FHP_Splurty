@@ -7,26 +7,28 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
 	<header>
 		<div class="col-xs-2">
-			<div class="circle">
-				<br />
-				An
-				<br />
-				AMPed
-				<br />
-				Web App
-			</div>
+			<%= link_to root_path, :class => 'logo' do %>
+				<div class="circle">
+					<br />
+					An
+					<br />
+					AMPed
+					<br />
+					Web App
+				</div>
+			<% end %>
 		</div>
 		<div class="col-xs-5 slogan">
 			Your digital wingman. We've got your back.
 		</div>
 		<div class="col-xs-5 links">
-			<%= link_to 'I got game', '#' %><br>
+			<%= link_to 'I got game', new_quote_path %><br>
 			<%= link_to 'Meet the wingman', '#' %>
 		</div>
 	</header>
+
 	<hr />
 	<br class="clear" />
 
@@ -37,7 +39,7 @@
 	<div class="footer">
 		<div class="container">
 			<div class="col-xs-6">
-				<%= link_to "Help me Wingman, I need another!", "#", :class => 'next-quote' %>
+				<%= link_to "Help me Wingman, I need another!", root_path, :class => 'next-quote' %>
 			</div>
 			<div class="col-xs-6 footer-blurb">
 				Want to build your own Splurty Web App? - <a href="http://thefirehoseproject.com">Learn how!</a>

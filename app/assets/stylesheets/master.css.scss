@@ -38,12 +38,16 @@
 	color:black;
 	border-bottom: 1px solid #b6acc3;
 }
+.links:hover {
+	text-decoration:none;  /* why doesn't THIS work? */
+}
 header {
 	border-top: 9px solid #67606f;
 	background-color: #e3e0e7;  /* why doesn't this work?!? */
 }
 hr {
 	clear:both;
+	border-top: 9px solid #67606f;
 }
 h1 {
 	font-family: 'fira_sansmedium_italic', sans-serif;
@@ -68,4 +72,7 @@ h2 {
 	font-size:10px;
 }
 
+.logo:hover {
+	text-decoration:none;
+}
 

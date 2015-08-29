@@ -9,6 +9,9 @@ gem 'pg'
 # Use Twitter Bootstrap-sass 20150827 ~AMP
 gem 'bootstrap-sass', '~> 3.3.4'
 
+# Adding Simple_Form Gem, Lesson 12 20150829 ~AMP
+gem 'simple_form'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
