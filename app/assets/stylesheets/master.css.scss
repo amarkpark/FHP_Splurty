@@ -27,6 +27,7 @@
 	font-style: italic;
 	font-size: 24px;
 	padding-top: 30px;
+	background-color: #e3e0e7;
 }
 .links {
 	padding-top:25px;
@@ -39,6 +40,7 @@
 }
 header {
 	border-top: 9px solid #67606f;
+	background-color: #e3e0e7;  /* why doesn't this work?!? */
 }
 hr {
 	clear:both;
@@ -52,9 +54,18 @@ h2 {
 	font-size:36px;
 }
 
+.next-quote {
+	color:#f84342;
+	font-family: 'fira_sansitalic', sans-serif;
+	font-size:20px;
+}
 
-
-
-
+.footer-blurb {
+	/* Trebuchet-based sans serif stack */
+	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+	font-style: italic;
+	text-align:right;
+	font-size:10px;
+}
 
 
