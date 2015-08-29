@@ -27,7 +27,7 @@
 	font-style: italic;
 	font-size: 24px;
 	padding-top: 30px;
-	background-color: #e3e0e7;
+	/* background-color: #e3e0e7; */
 }
 .links {
 	padding-top:25px;
@@ -57,7 +57,10 @@ h2 {
 	font-family: 'fira_sansregular', sans-serif;
 	font-size:36px;
 }
-
+h3 {
+	font-family: 'fira_sansmedium', sans-serif;
+	font-size:24px;
+}
 .next-quote {
 	color:#f84342;
 	font-family: 'fira_sansitalic', sans-serif;
@@ -69,10 +72,19 @@ h2 {
 	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
 	font-style: italic;
 	text-align:right;
-	font-size:10px;
+	font-size:12px;
 }
 
 .logo:hover {
 	text-decoration:none;
 }
-
+.about {
+	/* Trebuchet-based sans serif stack */
+	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+	font-style: italic;
+	font-size: 24px;
+}
+.blurb {
+	font-family: 'fira_sansregular', sans-serif;
+	font-size:18px;
+}
