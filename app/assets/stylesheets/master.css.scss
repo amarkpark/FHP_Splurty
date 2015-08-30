@@ -38,13 +38,17 @@
 	color:black;
 	border-bottom: 1px solid #b6acc3;
 }
-.links:hover {
-	text-decoration:none;  /* why doesn't THIS work? */
+.links a:hover {
+	text-decoration:none;  
 }
 header {
 	border-top: 9px solid #67606f;
 	background-color: #e3e0e7;  /* why doesn't this work?!? */
 }
+/* I don't think the header columns are IN the header container */
+/* Instructions called for "border-top". It didn't look like the picture. */
+/* When I added "border-bottom" I got a border twice as thick at the top. */
+/* I subsequently added a top border to the hr section to compensate. */
 hr {
 	clear:both;
 	border-top: 9px solid #67606f;
@@ -63,7 +67,7 @@ h3 {
 }
 h4 {
 	font-family: 'fira_sansmedium_italic', sans-serif;
-	font-size:24px;
+	font-size:26px;
 }
 h5 {
 	font-family: 'fira_sansmedium', sans-serif;
@@ -82,6 +86,11 @@ h5 {
 	text-align:right;
 	font-size:12px;
 }
+@media (max-width: 750px) {
+	.footer-blurb {
+	text-align:left;
+	}
+}
 
 .logo:hover {
 	text-decoration:none;
@@ -95,4 +104,11 @@ h5 {
 .blurb {
 	font-family: 'fira_sansregular', sans-serif;
 	font-size:18px;
+}
+.modal {
+	/* Trebuchet-based sans serif stack */
+	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+::selection {
+	background-color: #f84342;
 }
