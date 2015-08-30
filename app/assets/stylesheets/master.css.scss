@@ -45,10 +45,12 @@ header {
 	border-top: 9px solid #67606f;
 	background-color: #e3e0e7;  /* why doesn't this work?!? */
 }
+
 /* I don't think the header columns are IN the header container */
 /* Instructions called for "border-top". It didn't look like the picture. */
 /* When I added "border-bottom" I got a border twice as thick at the top. */
 /* I subsequently added a top border to the hr section to compensate. */
+
 hr {
 	clear:both;
 	border-top: 9px solid #67606f;
