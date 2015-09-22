@@ -12,6 +12,9 @@ gem 'bootstrap-sass', '~> 3.3.4'
 # Adding Simple_Form Gem, Lesson 12 20150829 ~AMP
 gem 'simple_form'
 
+# Adding Factory Girl for generating test data
+gem 'factory_girl_rails', '~> 4.0'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
